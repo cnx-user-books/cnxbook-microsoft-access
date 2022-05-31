@@ -1,0 +1,93 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>1_Cơ sở dữ liệu</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>c7842dea-425d-4ba2-ac8b-e1026e2ee0d2</md:uuid>
+</metadata>
+  <content>
+    <para id="id5396360">GIỚI THIỆU MICROSOFT ACCESS</para>
+    <list list-type="bulleted" id="id5540877">
+      <item>Microsoft Access là 1 trong 4 phần mềm ứng dụng của bộ Microsoft Office (Microsoft Word, Microsoft Excel, Microsoft Access, Microsoft PowerPoint).</item>
+      <item>Access là một hệ quản trị cơ sở dữ liệu (HQTCSDL) dùng để tạo, xử lý các cơ sở dữ liệu.</item>
+    </list>
+    <list list-type="enumerated" id="id5480364">
+      <item>Khởi động:</item>
+    </list>
+    <list list-type="bulleted" id="id5098849">
+      <item>Cách 1: Nhắp Start-&gt; Programs-&gt; Microsoft office-&gt; Microsoft Office Access 2003</item>
+      <item>Cách 2: Nhắp vào biểu tượng <figure id="id5060136"><media id="idm16664128" alt=""><image src="../../media/graphics1-5bd3.png" mime-type="image/png" height="18" width="19"/></media></figure> trên thanh Microsoft Office.</item>
+      <item>Màn hình Access:</item>
+    </list>
+    <figure id="id5409025">
+      <media id="idm9605504" alt=""><image src="../../media/graphics2-094b.png" mime-type="image/png" height="320" width="554"/></media>
+    </figure>
+    <list list-type="bulleted" id="id5482086">
+      <item>Chọn Blank Database: nếu muốn tạo mới một file CSDL</item>
+      <item>Chọn From Existing file: nếu muốn mở 1 file CSDL đã có. (đối với Access 97, chọn Open an existing database)</item>
+      <item>Sau khi tạo hoặc mở CSDL, màn hình có dạng như sau:</item>
+    </list>
+    <figure id="id5518576">
+      <media id="idm7079040" alt=""><image src="../../media/graphics3-b7cc.png" mime-type="image/png" height="276" width="475"/></media>
+    </figure>
+    <list list-type="enumerated" id="id5540052">
+      <item>Cơ sở dữ liệu trong Access:</item>
+    </list>
+    <para id="id5445329">Mỗi CSDL của Access được lưu trữ trong 1 file có đuôi là .mdb.</para>
+    <para id="id5445336">Mỗi CSDL của Access gồm có các thành phần sau:</para>
+    <list list-type="enumerated" id="id5358012">
+      <item>Table- bảng dữ liệu:</item>
+    </list>
+    <para id="id5166217">Là thành phần quan trọng nhất, chứa các dữ liệu cần thiết của CSDL</para>
+    <list list-type="enumerated" id="id5166224">
+      <item>Query-Bảng truy vấn (Bảng vấn tin)</item>
+    </list>
+    <para id="id5658331">Dùng để tính toán, xử lý các dữ liệu của Table, Query</para>
+    <list list-type="enumerated" id="id5394555">
+      <item>Form: là công cụ tạo ra các mẫu trình bày dữ liệu theo các dạng mà người sử dụng mong muốn.</item>
+      <item>Report: là công cụ tạo mẫu và in báo cáo</item>
+      <item>Macro: lệnh vĩ mô </item>
+    </list>
+    <para id="id5366494">Là tập hợp các lệnh được chọn, sắp xếp hợp lý cho việc tự động hóa các thao tác.</para>
+    <list list-type="enumerated" id="id5366502">
+      <item>Module: đơn thể chương trình</item>
+    </list>
+    <para id="id5468865">Là phương tiện lập trình trong Access với ngôn ngữ lập trình Visual Basic.</para>
+    <list list-type="enumerated" id="id5645369">
+      <item>Tạo-Mở-Đóng một CSDL trong Access:</item>
+    </list>
+    <list list-type="enumerated" id="id5393361">
+      <item>Tạo một CSDL mới:</item>
+    </list>
+    <para id="id5440713"> Bước 1: </para>
+    <list list-type="bulleted" id="id5668974">
+      <item>Nếu mới khởi động Access thì chọn Blank Database</item>
+      <item>Nếu đang làm việc tại cửa sổ CSDL thì nhắp menu File/ New Database (hoặc nhắp <figure id="id5538103"><media id="idm1456080" alt=""><image src="../../media/graphics4-ac8f.png" mime-type="image/png" height="20" width="17"/></media></figure>), rồi chọn Blank Database</item>
+    </list>
+    <para id="id5430260"> Bước 2: Tại hộp thọai File New Database</para>
+    <list list-type="enumerated" id="id5517400">
+      <item>
+        <list list-type="bulleted" id="id5517404">
+          <item>Trong khung Save in: chọn ổ đĩa chứa CSDL</item>
+          <item>File name : gõ tên file CSDL</item>
+          <item>Nhắp <figure id="id5527163"><media id="idm10175456" alt=""><image src="../../media/graphics5-6500.png" mime-type="image/png" height="24" width="94"/></media></figure></item>
+        </list>
+      </item>
+      <item>Mở một CSDL:</item>
+    </list>
+    <para id="id5795728"> Bước 1: </para>
+    <list list-type="bulleted" id="id5518151">
+      <item>Nếu mới khởi động Access thì chọn From Existing file (hoặc Open an existing database).</item>
+      <item>Nếu đang làm việc tại cửa sổ CSDL thì nhắp menu File/ Open Database hoặc nhắp <figure id="id5407807"><media id="idm2849280" alt=""><image src="../../media/graphics6-e389.png" mime-type="image/png" height="22" width="22"/></media></figure></item>
+    </list>
+    <para id="id5405235"> Bước 2:Tại hộp thọai Open</para>
+    <list list-type="enumerated" id="id5683618">
+      <item>
+        <list list-type="bulleted" id="id5683623">
+          <item>Trong khung Look in: chọn ổ đĩa chứa CSDL</item>
+          <item>Nhắp chọn file CSDL cần mở, nhắp <figure id="id5935629"><media id="idm5849456" alt=""><image src="../../media/graphics7-9c20.png" mime-type="image/png" height="26" width="96"/></media></figure></item>
+        </list>
+      </item>
+      <item>Đóng CSDL:</item>
+    </list>
+    <para id="id5476224">Nhắp menu File/Close</para>
+    <para id="id5476230"/>
+  </content>
+</document>

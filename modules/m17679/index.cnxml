@@ -1,0 +1,96 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>2_Bài tập Table</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>30b9820a-e0b8-43d2-82e0-8d8d3aa062b3</md:uuid>
+</metadata>
+  <content>
+    <para id="id8822453">BÀI TẬP CHƯƠNG 2_TABLE:</para>
+    <para id="id3418802">Câu 1: Tạo một cơ sở dữ liệu chứa 3 table có nội dung như hình sau: </para>
+    <para id="id3379574">Yêu cầu: </para>
+    <para id="id9973227">• Tên cơ sở dữ liệu là DIEM08.MDB</para>
+    <para id="id11188157">• Tự xác định cấu trúc các table căn cứ vào dữ liệu chứa trong đó </para>
+    <para id="id8098236">• Qui định khóa chính cho các table như sau: </para>
+    <para id="id3584525">Table: Khóa chính:</para>
+    <para id="id10442698">DanhSach SoBD</para>
+    <para id="id10191451">DiemThi SoBD</para>
+    <para id="id8840749">ChiTietDT DTDuThi</para>
+    <figure id="id8823419">
+      <media id="idp312960" alt=""><image src="../../media/graphics1-28f9.png" mime-type="image/png" height="298" width="482"/></media>
+    </figure>
+    <figure id="id10265584">
+      <media id="idm2813264" alt=""><image src="../../media/graphics2-44b5.png" mime-type="image/png" height="156" width="435"/></media>
+    </figure>
+    <figure id="id6849185">
+      <media id="idm14840944" alt=""><image src="../../media/graphics3-8e7e.png" mime-type="image/png" height="278" width="256"/></media>
+    </figure>
+    <para id="id10093456">Hướng dẫn Câu 1:</para>
+    <para id="id9287782">Bước 1: Khởi động Access:</para>
+    <list list-type="bulleted" id="id3248577">
+      <item>Cách 1: Nhắp Start-&gt; Programs-&gt; Microsoft office-&gt; Microsoft Office Access 2003</item>
+      <item>Cách 2: Nhắp vào biểu tượng <figure id="id3227061"><media id="idm14095168" alt=""><image src="../../media/graphics4-5bd3.png" mime-type="image/png" height="18" width="19"/></media></figure> trên thanh Microsoft Office.</item>
+    </list>
+    <para id="id3952544"><figure id="id7434077"><media id="idp1199136" alt=""><image src="../../media/graphics5-878f.png" mime-type="image/png" height="338" width="575"/></media></figure>Bước 2: Chọn Blank Database</para>
+    <list list-type="bulleted" id="id7910290">
+      <item>Trong khung Save in: chọn ổ đĩa chứa CSDL (ví dụ: D:)</item>
+      <item>File name : gõ tên file CSDL: (Diem08)</item>
+      <item>Nhắp <figure id="id8822805"><media id="idm7712528" alt=""><image src="../../media/graphics6-6500.png" mime-type="image/png" height="24" width="94"/></media></figure></item>
+    </list>
+    <figure id="id7674447">
+      <media id="idp154816" alt=""><image src="../../media/graphics7-b7cc.png" mime-type="image/png" height="276" width="475"/></media>
+    </figure>
+    <para id="id8454190"><figure id="id3829071"><media id="idm3268352" alt=""><image src="../../media/graphics8-0891.png" mime-type="image/png" height="357" width="501"/></media></figure>Bước 3: Chọn lớp Table, nhắp <figure id="id11371554"><media id="idm3438160" alt=""><image src="../../media/graphics9-abdc.png" mime-type="image/png" height="28" width="46"/></media></figure> -&gt; chọn Design View-&gt; OK</para>
+    <para id="id2832149">Bước 4: Tạo table Danhsach:</para>
+    <figure id="id3272938">
+      <media id="idm2499904" alt=""><image src="../../media/graphics10-8889.png" mime-type="image/png" height="295" width="667"/></media>
+    </figure>
+    <para id="id11020328">- Chọn SoBD, nhắp <figure id="id6573628"><media id="idm4421904" alt=""><image src="../../media/graphics11-11f1.png" mime-type="image/png" height="24" width="24"/></media></figure> đặt khóa chính</para>
+    <figure id="id10359433">
+      <media id="idm2633712" alt=""><image src="../../media/graphics12-ed62.png" mime-type="image/png" height="23" width="24"/></media>
+    </figure>
+    <para id="id11264302">-Nhắp lưu lại cấu trúc table </para>
+    <figure id="id9970116">
+      <media id="idp2633152" alt=""><image src="../../media/graphics13-2d00.png" mime-type="image/png" height="114" width="350"/></media>
+    </figure>
+    <list list-type="bulleted" id="id10171986">
+      <item>Đặt tên table và nhắp 0K</item>
+    </list>
+    <para id="id10751607">Bước 5: Tại cửa sổ CSDL, nhắp chọn table danh sách, nhắp Open để nhập dữ liệu.</para>
+    <figure id="id7693902">
+      <media id="idp4570688" alt=""><image src="../../media/graphics14-b5b7.png" mime-type="image/png" height="188" width="499"/></media>
+    </figure>
+    <para id="id6532940">Bước 6: Tương tự, lặp lại Bước 4 và 5 Tạo table Diemthi, ChitietDT.</para>
+    <para id="id3241241">Cấu trúc như sau:</para>
+    <figure id="id8160149">
+      <media id="idp3896352" alt=""><image src="../../media/graphics15-a048.png" mime-type="image/png" height="405" width="511"/></media>
+    </figure>
+    <para id="id3597978">
+      <figure id="id3367625">
+        <media id="idp1176816" alt=""><image src="../../media/graphics16-c6ce.png" mime-type="image/png" height="386" width="533"/></media>
+      </figure>
+    </para>
+    <para id="id3601554">Câu 2: Thiết lập quan hệ giữa các table theo sơ đồ quan hệ sau: </para>
+    <para id="id3244366">DanhSach ( SoBD, 1 ) -&gt; DiemThi ( SoBD, 1 ) </para>
+    <para id="id6827098"><figure id="id3381091"><media id="idm6767888" alt=""><image src="../../media/graphics17-d14a.png" mime-type="image/png" height="299" width="573"/></media></figure>ChiTietDT ( DTDuThi,1 ) -&gt; DanhSach ( DTDuThi, n ) </para>
+    <para id="id3429496">Hướng dẫn câu 2: </para>
+    <list list-type="bulleted" id="id7931718">
+      <item>Bước 1: nhắp menu Tools/ Relationships ( hoặc nhắp <figure id="id8572233"><media id="idm4673728" alt=""><image src="../../media/graphics18.png" mime-type="image/png" height="25" width="22"/></media></figure>)</item>
+      <item>
+        <figure id="id7668843">
+          <media id="idm3775344" alt=""><image src="../../media/graphics19.png" mime-type="image/png" height="329" width="572"/></media>
+        </figure>
+      </item>
+      <item>Bước 2: Chọn các table cần tạo quan hệ, nhắp nút <figure id="id10741270"><media id="idm4346480" alt=""><image src="../../media/graphics20.png" mime-type="image/png" height="24" width="71"/></media></figure>. Sau khi chọn xong nhắp <figure id="id11365819"><media id="idm7985312" alt=""><image src="../../media/graphics21.png" mime-type="image/png" height="23" width="72"/></media></figure></item>
+    </list>
+    <figure id="id10315374">
+      <media id="idm696368" alt=""><image src="../../media/graphics22.png" mime-type="image/png" height="304" width="571"/></media>
+    </figure>
+    <list list-type="bulleted" id="id4069818">
+      <item>Bước 3: Chọn field SoBD của Table Danhsach, bấm giữ nút trái chuột và kéo lên filed SoBDTable DiemThi. Xuất hiện hộp thoại:</item>
+    </list>
+    <para id="id3416912">Bước 4Chọn<figure id="id8570746"><media id="idm3439824" alt=""><image src=".png" mime-type="image/png" height="266" width="377"/></media></figure></para>
+    <para id="id3412874">- Bước 5: Nhắp <figure id="id7690243"><media id="idp2614384" alt=""><image src="../../media/graphics23.png" mime-type="image/png" height="22" width="77"/></media></figure>. Nhắp <figure id="id3936346"><media id="idp213216" alt=""><image src="../../media/graphics24.png" mime-type="image/png" height="19" width="20"/></media></figure></para>
+    <list list-type="bulleted" id="id9633989">
+      <item>Bước 6 Tương tự, Chọn field ChitietDT của Table ChitietDT, bấm giữ nút trái chuột và kéo lên filed quan hệ của Table Danhsach -&gt; Lặp lại Bước 4 và 5.</item>
+      <item>Bước 7: nhắp Save để lưu lại quan hệ.</item>
+    </list>
+  </content>
+</document>

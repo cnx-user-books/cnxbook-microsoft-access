@@ -1,0 +1,104 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>2_Table - Bảng dữ liệu</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>2e1d112a-8be0-40a3-8753-47e9c3fd3094</md:uuid>
+</metadata>
+  <content>
+    <para id="id46196747">TABLE – BẢNG DỮ LIỆU</para>
+    <list list-type="enumerated" id="id46196752">
+      <item>Cấu trúc của table:</item>
+    </list>
+    <para id="id46196762">Table được tổ chức thành các cột (Field) và các dòng (Record).</para>
+    <para id="id46196768">Khi làm việc với Table, ta sẽ ở một trong 2 chế độ: Design View hoặc Datasheet view:</para>
+    <para id="id46196776">
+      <figure id="id46196780">
+        <media id="idp5822448" alt=""><image src="../../media/graphics1-3763.png" mime-type="image/png" height="118" width="538"/></media>
+      </figure>
+    </para>
+    <para id="id46196802">Datasheet View</para>
+    <list list-type="enumerated" id="id46196857">
+      <item>Chế độ Design View:</item>
+    </list>
+    <para id="id46196868">Dùng để tạo mới hoặc sửa chữa cấu trúc của Table:</para>
+    <figure id="id46196878">
+      <media id="idm508320" alt=""><image src="../../media/graphics2-63c2.png" mime-type="image/png" height="276" width="577"/></media>
+    </figure>
+    <list list-type="enumerated" id="id46196901">
+      <item>Vào chế độ Design View:</item>
+    </list>
+    <list list-type="bulleted" id="id46196910">
+      <item>Tạo mới table:</item>
+    </list>
+    <para id="id46196920">Ở cửa sổ CSDL, chọn lớp Table, nhắp <figure id="id46196925"><media id="idm6671488" alt=""><image src="../../media/graphics3-abdc.png" mime-type="image/png" height="28" width="46"/></media></figure> -&gt; chọn Design View-&gt; OK</para>
+    <list list-type="bulleted" id="id46196951">
+      <item>Sửa chữa cấu trúc của Table:</item>
+    </list>
+    <para id="id46196961">Ở cửa sổ CSDL, chọn Table cần sửa, nhắp <figure id="id46196966"><media id="idm577584" alt=""><image src="../../media/graphics4-b91b.png" mime-type="image/png" height="27" width="63"/></media></figure></para>
+    <list list-type="enumerated" id="id46196990">
+      <item>Cấu trúc table- cửa sổ Design View:</item>
+    </list>
+    <para id="id46197002">Cửa sổ Design view gồm 3 cột: Field Name, Data Type, Description và một bảng con Field Properties:</para>
+    <list list-type="bulleted" id="id46197010">
+      <item>Field Name: Khai báo tên cột (Field)</item>
+      <item>Data Type: chọn kiểu dữ liệu cho Field:</item>
+    </list>
+    <list list-type="bulleted" id="id46197027">
+      <item>Text: Kiểu chuỗi</item>
+      <item>Number: kiểu số</item>
+      <item>Date/time: Kiểu ngày</item>
+      <item>Yes/No: kiểu logic (đúng/sai)</item>
+      <item>OLE Object: Đối tượng nhúng và liên kết (hình ảnh)</item>
+    </list>
+    <list list-type="bulleted" id="id46197060">
+      <item>Description: dùng để giải thích, mô tả tên cột</item>
+      <item>Field properties: thuộc tính Field: +Field size: kích thước field</item>
+    </list>
+    <para id="id46197084">+Format: dang hiện dữ liệu +Decimal place: số số lẻ.</para>
+    <list list-type="enumerated" id="id46197098">
+      <item>Ra khỏi chế độ Design View:</item>
+    </list>
+    <list list-type="bulleted" id="id46197110">
+      <item>Nhắp <figure id="id46197117"><media id="idp5777152" alt=""><image src="../../media/graphics5-e23f.png" mime-type="image/png" height="18" width="19"/></media></figure> để lưu lại cấu trúc table</item>
+      <item>Nếu đang tạo mới Table thì phải đặt tên cho Table và trả lời hộp thoại: …Do you want to create a primary key now? (chọn No)</item>
+    </list>
+    <para id="id46197154">( muốn chuyển qua chế độ Datasheet thì nhắp <figure id="id46197160"><media id="idp2066304" alt=""><image src="../../media/graphics6-d337.png" mime-type="image/png" height="18" width="19"/></media></figure>)</para>
+    <list list-type="enumerated" id="id46197185">
+      <item>Chế độ Datasheet View:</item>
+    </list>
+    <para id="id46197196">Chế độ Datasheet View cho phép xem và cập nhật dữ liệu của Table.</para>
+    <para id="id46197204">Muốn vào chế độ Datasheet View:</para>
+    <list list-type="bulleted" id="id46197209">
+      <item>Nếu đang ở cửa sổ CSDL, chọn table muốn cập nhật, nhắp <figure id="id46197218"><media id="idp5986192" alt=""><image src="../../media/graphics7-10aa.png" mime-type="image/png" height="29" width="52"/></media></figure></item>
+      <item>Nếu đang ở chế độ Design View, nhắp <figure id="id46197249"><media id="idp5969024" alt=""><image src="../../media/graphics8-d337.png" mime-type="image/png" height="18" width="19"/></media></figure></item>
+      <item>Khóa chính:</item>
+    </list>
+    <list list-type="enumerated" id="id46197284">
+      <item>Khái niệm:</item>
+    </list>
+    <para id="id46197293">Mỗi Table thường có một mục khóa chính. Khóa chính của 1 Table có thể là một hay kết hợp nhiều Field để Access phân biệt một Record với các record khác trong table.</para>
+    <list list-type="enumerated" id="id46197304">
+      <item>Khai báo khóa chính:</item>
+    </list>
+    <list list-type="bulleted" id="id46197316">
+      <item>Tại cửa sổ CSDL, chọn table muốn tạo khóa chính, nhắp <figure id="id46197327"><media id="idp1970560" alt=""><image src="../../media/graphics9-b91b.png" mime-type="image/png" height="27" width="63"/></media></figure></item>
+      <item>Chọn các field được chọn làm khóa chính (nhắp ô xám bên trái)</item>
+      <item>Nhắp biểu tượng <figure id="id46197365"><media id="idp2143008" alt=""><image src="../../media/graphics10-0fa8.png" mime-type="image/png" height="25" width="23"/></media></figure> -&gt; Nhắp <figure id="id46197393"><media id="idm572496" alt=""><image src="../../media/graphics11-e23f.png" mime-type="image/png" height="18" width="19"/></media></figure></item>
+      <item>Khai báo quan hệ giữa các table:</item>
+    </list>
+    <list list-type="enumerated" id="id46197429">
+      <item>Khái niệm: </item>
+    </list>
+    <para id="id46197438">Table A có quan hệ với table B nếu dữ liệu trên Table A có thể bổ sung thêm thông tin cho table B. Field giống nhau giữa 2 table gọi là Field quan hệ.</para>
+    <para id="id46197453">* Mối quan hệ 1-1: nếu giá trị trên Field quan hệ của table A chỉ xuất hiện một lần trên Field quan hệ của table B và ngược lại.</para>
+    <para id="id46197463">* Mối quan hệ 1-nhiều: nếu giá trị trên Field quan hệ của table A xuất hiện nhiều lần trên Field quan hệ của table B.</para>
+    <list list-type="enumerated" id="id46197474">
+      <item>Khai báo quan hệ giữa các table:  </item>
+    </list>
+    <list list-type="bulleted" id="id46197487">
+      <item>Bước 1: nhắp menu Tools/ Relationships ( hoặc nhắp <figure id="id46197498"><media id="idm562000" alt=""><image src="../../media/graphics12-fe9d.png" mime-type="image/png" height="25" width="22"/></media></figure>)</item>
+      <item>Bước 2: Chọn các table cần tạo quan hệ, nhắp nút <figure id="id46197530"><media id="idm3391104" alt=""><image src="../../media/graphics13-a951.png" mime-type="image/png" height="24" width="71"/></media></figure>. Sau khi chọn xong nhắp <figure id="id46197556"><media id="idp4031968" alt=""><image src="../../media/graphics14-a778.png" mime-type="image/png" height="23" width="72"/></media></figure></item>
+      <item>Bước 3: Chọn field quan hệ của Table A, bấm giữ nút trái chuột và kéo lên filed quan hệ của Table B. Xuất hiện hộp thoại:</item>
+    </list>
+    <para id="id46197591">Bước 4Chọn<figure id="id46197652"><media id="idp3611312" alt=""><image src="../../media/graphics15-3f0b.png" mime-type="image/png" height="200" width="372"/></media></figure></para>
+    <para id="id46197676">- Bước 5: Nhắp <figure id="id46197681"><media id="idm2367952" alt=""><image src="../../media/graphics16-f497.png" mime-type="image/png" height="22" width="77"/></media></figure>. Nhắp <figure id="id46197706"><media id="idm2385856" alt=""><image src="../../media/graphics17-1645.png" mime-type="image/png" height="19" width="20"/></media></figure></para>
+  </content>
+</document>
