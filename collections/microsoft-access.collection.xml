@@ -1,3 +1,49 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col10588</md:content-id>  <md:title>Microsoft Access</md:title>      <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License 2.0</md:license>  <md:language>vi</md:language>              <md:uuid>f98d1ed8-2de9-4a6a-b560-648cc2f7f4ce</md:uuid>
-<md:slug>microsoft-access</md:slug>
-</metadata>  <col:content>                        <col:subcollection>        <md:title>Chương 1</md:title>                                <col:content>                    <col:module document="m17680"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Chương 2</md:title>                                <col:content>                    <col:module document="m17538"/>                                          <col:subcollection>        <md:title>bài tập mẫu</md:title>                                <col:content>                    <col:module document="m17674"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Bài tập</md:title>                                <col:content>                    <col:module document="m17679"/>                          </col:content>      </col:subcollection>            </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Chương 3</md:title>                                <col:content>                  </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Chương 4</md:title>                                <col:content>                  </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Chương 5</md:title>                                <col:content>                  </col:content>      </col:subcollection>      </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="Thu Nguyen">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10588</md:content-id>
+    <md:title>Microsoft Access</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License 2.0</md:license>
+    <md:language>vi</md:language>
+    <md:uuid>f98d1ed8-2de9-4a6a-b560-648cc2f7f4ce</md:uuid>
+    <md:slug>microsoft-access</md:slug>
+  </metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>Ch&#x1B0;&#x1A1;ng 1</md:title>
+      <col:content>
+        <col:module document="m17680"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Ch&#x1B0;&#x1A1;ng 2</md:title>
+      <col:content>
+        <col:module document="m17538"/>
+        <col:subcollection>
+          <md:title>b&#xE0;i t&#x1EAD;p m&#x1EAB;u</md:title>
+          <col:content>
+            <col:module document="m17674"/>
+          </col:content>
+        </col:subcollection>
+        <col:subcollection>
+          <md:title>B&#xE0;i t&#x1EAD;p</md:title>
+          <col:content>
+            <col:module document="m17679"/>
+          </col:content>
+        </col:subcollection>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Ch&#x1B0;&#x1A1;ng 3</md:title>
+      <col:content>                  </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Ch&#x1B0;&#x1A1;ng 4</md:title>
+      <col:content>                  </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Ch&#x1B0;&#x1A1;ng 5</md:title>
+      <col:content>                  </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>
